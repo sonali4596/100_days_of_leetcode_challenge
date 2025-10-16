@@ -1,0 +1,20 @@
+class Solution {
+    public int findSmallestInteger(int[] nums, int value) {
+        int[] cnt = new int[value];
+        for (int a : nums) {
+            int r = a % value;
+            if (r < 0) r += value; // handle negatives
+            cnt[r]++;
+        }
+        int x = 0;
+        while (true) {
+            int r = x % value;
+            if (cnt[r] > 0) {
+                cnt[r]--;
+                x++;
+            } else {
+                return x;
+            }
+        }
+    }
+}
