@@ -1,4 +1,6 @@
 //2125. Number of Laser Beams in a Bank
+//T.c o(m*n)
+//s.c o(1)
 class Solution {
     public int numberOfBeams(String[] bank) {
         long beams=0;
