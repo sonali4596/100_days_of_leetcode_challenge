@@ -1,4 +1,5 @@
 //3289. The Two Sneaky Numbers of Digitville
+//space complexity o(n)
 class Solution {
     public int[] getSneakyNumbers(int[] nums) {
         int[] ans=new int[2];
