@@ -1,4 +1,5 @@
 //3217. Delete Nodes From Linked List Present in Array
+//instead of hashmap use hashset as we only need registry of the nodes 
 class Solution {
     public ListNode modifiedList(int[] nums, ListNode head) {
         HashMap<Integer,Integer>mp=new HashMap<>();
