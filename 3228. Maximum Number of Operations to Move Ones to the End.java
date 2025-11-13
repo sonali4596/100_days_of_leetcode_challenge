@@ -1,3 +1,5 @@
+//3228. Maximum Number of Operations to Move Ones to the End
+
 public class Solution {
 
     public int maxOperations(String s) {
